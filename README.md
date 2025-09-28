@@ -1,73 +1,91 @@
-# Welcome to your Lovable project
+# IELTS Studio - Professional IELTS Training Platform
 
-## Project info
+A modern, professional IELTS training platform built with React JS, TypeScript, and Tailwind CSS, designed to help students achieve their desired IELTS band scores.
 
-**URL**: https://lovable.dev/projects/e82c9139-8d67-4788-b341-5cd96d6ad746
+## 🚀 Features
 
-## How can I edit this code?
+- **Interactive Dashboard**: Student progress tracking and analytics
+- **Modern UI**: Clean, professional design with smooth animations
+- **Type-Safe**: Built with TypeScript for robust code quality
+- **Component Library**: Leveraging shadcn/ui for consistent UI elements
+- **Responsive Design**: Works seamlessly across all devices
+- **Performance Optimized**: Fast loading and smooth interactions
+- **Accessibility**: WCAG compliant and screen-reader friendly
 
-There are several ways of editing your application.
+## 📋 Key Sections
 
-**Use Lovable**
+- **Homepage**: Welcoming hero section with key offerings
+- **Course Catalog**: Comprehensive IELTS preparation modules
+- **Practice Tests**: Mock tests for all IELTS sections:
+  - Reading
+  - Writing
+  - Listening
+  - Speaking
+- **Student Dashboard**: Progress tracking and performance metrics
+- **Resource Library**: Study materials and practice content
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e82c9139-8d67-4788-b341-5cd96d6ad746) and start prompting.
+## 🛠️ Development Setup
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
+- Node.js (v14+)
+- npm/yarn
+- Git
 
-**Use your preferred IDE**
+### Installation Steps
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-url>
+   cd ielts-studio
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Follow these steps:
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+4. **View in browser**
+   Open `http://localhost:5173`
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🎨 Design System
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Colors
+- Primary: `#4F46E5` (Indigo)
+- Secondary: `#1F2937` (Gray)
+- Accent: `#10B981` (Emerald)
+- Background: `#FFFFFF`
+- Text: `#111827`
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### Typography
+- Primary Font: Inter
+- Headings: Poppins
+- Body: 16px base size
+
+## 🔧 Tech Stack
+
+- **Frontend**: React 18 with TypeScript
+- **Styling**: Tailwind CSS
+- **Components**: shadcn/ui
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Build Tool**: Vite
+- **Package Manager**: npm
+
+## 📁 Project Structure
+
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e82c9139-8d67-4788-b341-5cd96d6ad746) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+src/
+├── components/
+│   ├── ui/              # Base UI components
+│   ├── layout/          # Layout components
+│   └── sections/        # Page sections
+├── pages/              # Route pages
+├── lib/               # Utilities and helpers
+├── styles/            # Global styles
+└── types/             # TypeScript definitions
+```
